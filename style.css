@@ -35,12 +35,14 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 5rem;
     margin-top: 0;
-     margin: 0 auto;
+    margin: 0 auto;
     margin-bottom: 0;
     text-align: center;
     word-spacing: 10px;
     text-shadow: #eff499;
     max-width: 90%;
+    display: flex;
+
 
 }
 
@@ -130,4 +132,17 @@ footer {
     color: #C13584;
     max-width: 95%;
     margin: 0 auto;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem; /* kisebb mobilon */
+    }
+    footer {
+        font-size: 1.5rem;
+    }
+    section {
+        font-size: 1rem;
+    }
 }
