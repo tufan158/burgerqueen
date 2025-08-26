@@ -39,6 +39,7 @@ h1 {
     text-align: center;
     word-spacing: 10px;
     text-shadow: #eff499;
+    max-width: 90%;
 
 }
 
@@ -100,14 +101,14 @@ a:hover {
 
 
 footer {
-    margin-top: 50px;
+    margin-top: 50px auto 0 auto;
     text-align: center;
     margin-bottom: 0;
     font-size: 30px;
     letter-spacing: 1px;
-
     color: rgb(5, 0, 0);
     font-weight: bold;
+    max-width: 95%;
 }
 
 
@@ -118,9 +119,11 @@ footer {
     color: #E1306C;
     
     transition: transform 0.3s, color 0.3s;
+    max-width: 95%;
 }
 
 .fa-brands.fa-instagram:hover {
     transform: scale(1.2);
     color: #C13584;
+    max-width: 95%;
 }
